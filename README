@@ -107,11 +107,3 @@ Linear SVM          |TFIDF weighted word2Vec   |   0.47              |  0.48
 xgboost             |TFIDF weighted word2Vec   |   n/a               |  0.35      
 
  
- 
- 
- 
- 
- 
- 
- 
- 
