@@ -95,17 +95,17 @@ The distributions of the word_Common feature in similar and non-similar question
 ## Featurizing text data with tfidf weighted word-vectors/tfidf word-vectors
 # Machine Learning Models
 # Conclusion
-Model	                              Tokenizer	                  Train Log loss	         Test Log loss
-Logistic Regression	              TFIDF	                                0.44	             0.41
-Linear SVM                      	TFIDF	                                0.45	             0.45
-xgboost	                          TFIDF	                                0.36	             0.36
-Logistic Regression	              TFIDF weighted word2Vec	              0.51	             0.52
-Linear SVM	                      TFIDF weighted word2Vec             	0.47	             0.48
-xgboost	                          TFIDF weighted word2Vec	              n/a              	0.35
  
  
- 
- 
+ Model               |       Tokenizer          |  Train Log loss     | Test Log loss
+--------------------|--------------------------|---------------------|--------------
+Logistic Regression |        TFIDF             |   0.44              |  0.41        
+Linear SVM          |        TFIDF             |   0.45              |  0.45        
+xgboost             |        TFIDF             |   0.36              |  0.36        
+Logistic Regression |TFIDF  weighted word2Vec  |   0.51              |  0.52        
+Linear SVM          |TFIDF weighted word2Vec   |   0.47              |  0.48        
+xgboost             |TFIDF weighted word2Vec   |   n/a               |  0.35      
+
  
  
  
